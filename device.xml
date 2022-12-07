@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="lge-l01k-development"
+          fetch="https://github.com/lge-l01k-development"
+          revision="lineage-19.1"
+           />
+
+  <project path="hardware/lge" name="android_hardware_lge" remote="lge-l01k-development"  />
+
+  <project path="device/lge/common" name="android_device_lge_common" remote="lge-l01k-development"  />
+  <project path="device/lge/joan" name="android_device_lge_joan" remote="lge-l01k-development"  />
+  
+  <project path="kernel/lge/msm8998" name="android_kernel_lge_msm8998" remote="lge-l01k-development"  />
+
+
+</manifest>
